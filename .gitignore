@@ -1,0 +1,68 @@
+# ====================
+# Global ignores
+# ====================
+.DS_Store
+Thumbs.db
+*.log
+*.env
+.env.*
+node_modules/
+dist/
+build/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ====================
+# Frontend (React/Vue/Angular)
+# ====================
+# React / Vue / Angular
+/frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.*
+
+
+# Vite
+/frontend/.vite/
+frontend/.parcel-cache/
+
+# React Native
+/frontend/android/
+frontend/ios/
+frontend/expo/
+
+# ====================
+# Backend (Node.js/Express)
+# ====================
+/backend/node_modules/
+backend/.env
+backend/.env.*
+backend/logs/
+backend/pids/
+backend/tmp/
+backend/dist/
+backend/build/
+
+# ====================
+# OS / Editor files
+# ====================
+*.bak
+*.tmp
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+
+# ====================
+# Testing and coverage
+# ====================
+coverage/
+.nyc_output/
+jest/
+test-results/
+cypress/screenshots/
+cypress/videos/
+
